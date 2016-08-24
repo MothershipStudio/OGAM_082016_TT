@@ -1,0 +1,15 @@
+#Definitions of files to ignore on git pushes
+#Folders
+*AssetBundles/
+*Library/
+*Temp/
+*obj/
+
+#files
+*.csproj
+*.sln
+*.csproj.user
+*.v12.suo
+*.DS_Store
+*.userprefs
+*.unityproj
