@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
-using System.Collections;
-using GemsCollection;
+using UnityEngine.UI;
 using System;
-using SpellsCollection;
 using BaseClasses;
 
 public class Tower : MonoBehaviour {
-    
+    [SerializeField]
+    Sprite[] towerSprites;
+    Image image;
+
     public BasePlayer parent;
     public int slots = 2;
     private BaseGem[] gems;
@@ -14,12 +15,9 @@ public class Tower : MonoBehaviour {
     // Use this for initialization
     void Start () {
         this.gems = new BaseGem[slots];
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+        image = GetComponent<Image>();
+
+    }
     
     public void PutGemAt(int slot, BaseGem gem)
     {
@@ -54,5 +52,18 @@ public class Tower : MonoBehaviour {
         }
 
         return totalDamage;
+    }
+
+    public void UpdateTowerSprite(float life) {
+        if(life > 75)
+            image.sprite = towerSprites[0];
+        else if(life > 50)
+            image.sprite = towerSprites[1];
+        else if(life > 25)
+            image.sprite = towerSprites[2];
+        else if(life > 0)
+            image.sprite = towerSprites[3];
+        else
+            image.sprite = towerSprites[4];
     }
 }
