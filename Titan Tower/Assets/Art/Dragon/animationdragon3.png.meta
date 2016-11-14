@@ -1,13 +1,14 @@
 fileFormatVersion: 2
 guid: bb671ad0e2dcc144da3d180d58ed7868
-timeCreated: 1476921784
+timeCreated: 1479151753
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: animationdragon3_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -30,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,12 +39,12 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  alignment: 9
+  spritePivot: {x: 0.4304441, y: 0.71936864}
+  spriteBorder: {x: 0, y: 246, z: 279, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -51,7 +52,20 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: animationdragon3_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 245
+        width: 210
+        height: 237
+      alignment: 9
+      pivot: {x: 0.9877181, y: 0.49345225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
