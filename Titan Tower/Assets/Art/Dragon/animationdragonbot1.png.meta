@@ -1,9 +1,10 @@
 fileFormatVersion: 2
 guid: a245c4f5254d72b41b97bfcbf2756111
-timeCreated: 1476921781
+timeCreated: 1479425741
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: animationdragonbot1_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +39,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,7 +52,20 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: animationdragonbot1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 244
+        width: 212
+        height: 237
+      alignment: 9
+      pivot: {x: 0.97579706, y: 0.49672613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
